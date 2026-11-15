@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — rclone OAuth client</title>
+<style>
+  body { max-width: 42rem; margin: 4rem auto; padding: 0 1.25rem;
+         font: 16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         color: #1f2328; }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.05rem; margin-top: 2rem; }
+  .sub { color: #656d76; margin-top: 0; }
+  a { color: #0969da; }
+  code { background: #f6f8fa; padding: .1rem .3rem; border-radius: 4px; font-size: .9em; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #d8dee4;
+           color: #656d76; font-size: .9rem; }
+</style>
+</head>
+<body>
+
+<h1>Privacy policy</h1>
+<p class="sub">rclone OAuth client</p>
+
+<h2>What this application is</h2>
+<p>
+  This is a personal OAuth 2.0 client for <a href="https://rclone.org/">rclone</a>.
+  It is used by one person to access their own Google Drive account. It is not
+  offered as a service to anyone else, and no account other than the owner's is
+  intended to use it.
+</p>
+
+<h2>What data is accessed</h2>
+<p>
+  When the client is authorized, Google issues OAuth tokens that let rclone read and
+  modify files in the Google Drive account the owner authorizes. The scope requested
+  is <code>https://www.googleapis.com/auth/drive</code>.
+</p>
+
+<h2>Where the data goes</h2>
+<p>
+  Files are transferred directly between the owner's own computer and Google Drive.
+  No copy of any file, file listing, or account data is sent to, stored on, or
+  processed by any server operated by the owner of this site.
+</p>
+
+<h2>What is stored</h2>
+<p>
+  OAuth tokens are stored locally by rclone in its configuration file on the machine
+  where rclone runs. This site sets no cookies, runs no analytics, and performs no
+  tracking of any kind.
+</p>
+
+<h2>Third parties</h2>
+<p>
+  No data is sold, rented, shared, or transferred to third parties. The only external
+  service involved is Google Drive itself, which is governed by Google's own privacy
+  policy.
+</p>
+
+<h2>Revoking access</h2>
+<p>
+  Access can be revoked at any time at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>,
+  or by deleting the rclone remote from the local rclone configuration.
+</p>
+
+<h2>Changes to this policy</h2>
+<p>
+  If this policy changes, the updated version will be published on this page.
+</p>
+
+<h2>Contact</h2>
+<p>
+  Questions about this policy: <a href="mailto:i@qlin.org">i@qlin.org</a>
+</p>
+
+<footer>
+  <a href="./">Back to home page</a>
+</footer>
+
+</body>
+</html>
